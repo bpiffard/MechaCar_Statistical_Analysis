@@ -16,3 +16,8 @@ To make things more confusing, suspension coils are not typically measure in psi
 
 ## T-Tests on Suspension Coils
 Using a population mean of 1,500, the t-tests show that only the mean PSI value of manufactruring lot 3 differed from the population mean enough to be statsitically significant. This suggests that an error occured in the manufacturing process for this lot. This also suggests that the specification stated in the Summary Stats anaylsis indeed referred to the statistical variance.
+
+## Study Design: MechaCar vs Competition
+According to a recent survey [conducted by Statista](https://www.statista.com/chart/13075/most-important-factors-when-buying-a-car/), fuel effeciency is the most important metric that consumers consider when buying a new car. Thus in thinking about quantifying how MechaCar performs against the competition, I think looking at gas mileage would be the best option. It would require two tests, one with the average mpg on the highway, and mpg from city driving. 
+
+This anaylsis would involve comparing population means of mpg averages between different car brands. Thus the most appropriate statistical test for this would be a one-way ANOVA test. To make the test more practically helpful, it would be useful to test MechaCars gas mileage only to cars of the same class and transmission type. Comparing the fuel effeciency of a sedan to a truck, for example, isn't very interesting.
